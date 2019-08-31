@@ -1,0 +1,32 @@
+
+var ftGUID_3876410="4259CE34BDE4B3";
+var ftConfID_3876410="15029227";
+var ftParams_3876410="ftx=&fty=&ftadz=&ftscw=ebuy=22124580;esid=4094545;epid=237070374;ecid=118060098;eadv=4053494;eaid=446178926;erid=118174077;eexpid=;eexcid=;erv=1;eiid=CPnv7pvEq-QCFY9BNwodjf0MhA;&ft_custom=4053494__22124580__4094545__118060098&ftOBA=1&ft_ifb=1&ft_domain=www.w3schools.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.w3schools.com%2Fsql%2Fsql_create_table.asp&ft_keyword=237070374&ft_section=%7C%7C237070374&cachebuster=151509.23766654168";
+var ftKeyword_3876410="";
+var ftCustom_3876410="4053494__22124580__4094545__118060098";
+var ftSection_3876410="||237070374";
+var ftSegment_3876410="";
+var ftSegmentList_3876410=[];
+var ftRuleMatch_3876410="00001000";
+var ftTimestamp_3876410="1567202193";
+var ftGeoC2_3876410="us";
+var ftGeoState_3876410="ma";
+var ftGeoCity_3876410="dorchester";
+var ftISP_3876410="comcast cable communications inc.";
+var ftSpeed_3876410="cable";
+var ftDMA_3876410="506";
+var ftLong_3876410="-71.0706";
+var ftLat_3876410="42.2861";
+var ftPostal_3876410="02124";
+var ftTimeZone_3876410="-400";
+var ftMobileCarrier_3876410="";
+var ftImp3876410 = {};
+ftImp3876410.privacy = "x";
+ftImp3876410.guidAge = "-1";
+ftImp3876410.impID = "D895D72D-C408-036C-8610-A583F8E94417";
+ftImp3876410.duid = "FT:4259CE34BDE4B3";
+
+ftImp3876410.ft_tpplid = "";
+ftImp3876410.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/387/3876410/2715195/js/j-3876410-2715195.js" id="ftscript_m3876410" name="ftscript_m3876410"></scr'+'ipt>');
