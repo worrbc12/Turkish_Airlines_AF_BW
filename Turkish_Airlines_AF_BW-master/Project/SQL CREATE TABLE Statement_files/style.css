@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	
+/*------- Calling Spongecell hosted Comcast Fonts --------*/
+@font-face {
+    font-family : 'XfinityBrownWeb-Light';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/24941008179701317ed1b84ece7f42ed6a90c2d4.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/74e41835de34c8deb73e1f979e66fe374ac4ccb9.woff") format("woff");
+    font-weight : 100;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XfinityBrownWeb-Bold';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/d4b3e162de98cb3f43636cde35fcc00e89f83fdf.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/1ccbf188da2dd4565c47b990c13da23365f1251e.woff") format("woff");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XfinityBrownWeb-Regular';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/40915d5c7fac9eb0b4397623fac4cd6d0a48852d.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/1bf1652af0afef4076dc2fd7e065fbe531cdf610.woff") format("woff");
+    font-weight : 400;
+    font-style  : normal;
+}
+
+
+@font-face {
+    font-family : 'XfinityBrownWeb-Italic';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/11618f303fbc6ea15251b1dea07a01a172457cf4.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/a8f706bffdb0cd829c1cf7648e9bf9a1b214603f.woff") format("woff");
+    font-weight : 500;
+    font-style  : italic;
+}
+
+@font-face {
+    font-family : 'XFINITYStandardTT-Thin';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/68f8e04978274091c7e6a976542a8ec97eee679e.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/fcd4f2198bddddd5175dd3d169a3388de84a8e7d.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/aa7d91e3382f967545ca35bbb60551aaa5f83719.ttf") format("truetype");
+    font-weight : 100;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XFINITYStandardTT-Bold';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/bf2f2b3424a5148dfa724c2fdfb63d7f5d3b61c4.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/e47e07c11abfd771eb540bb9e07e9fec9e119c72.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/ed356a21dc6474b5ae9b308808995af6ea4551f7.ttf") format("truetype");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XFINITYStandardTT';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/6c42a98cfc6fa0c435b36f2a42509d71ccef627c.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/9c8b95b41012f79de6dff19b5722e4ceba3b98b9.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/4b519c62d8912d01963a2179b2262b7fd093a8c0.ttf") format("truetype");
+    font-weight : 400;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XFINITYStandardTT-Medium';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/48c7e9affb0f33ae2050766b308832be99b9521c.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/3ad0668f0994cb844ccd7824c6f970068925198c.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/8674ef4564ad507eaaa2c5dff14345c9181899bf.ttf") format("truetype");
+    font-weight : 500;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XFINITYStandardTT-MediumItalic';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/8da4afd258ec077cc55c18d76dae0a5ed0f778bc.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/3fbcf6a04efa0d8393c9adbc44638f9c46e11ba7.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/5aa775a6da8c6068572bc798038dcded2dad65d0.ttf") format("truetype");
+    font-weight : 500;
+    font-style  : italic;
+}
+
+@font-face {
+    font-family : 'XFINITYStandardTT-Light';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/beeacad9011922c7031fe837cdf667ea76c960b0.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/a6e7996a68a9983dc83e5122d44ecad4fe1b4715.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/b2b50684d518d03f3495943c45107c480b316be3.ttf") format("truetype");
+    font-weight : 300;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XFINITYStandardTTCond-Medium';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/c92c79a86b2b54bde3fe6d11cdd32a70f954c510.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/0fc18abd6d2c72b82ebe3acfc84e2cc6bad984e8.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/210731351d2689a6ab491c73b860b2a8edaddfa4.ttf") format("truetype");
+    font-weight : 500;
+    font-style  : normal;
+}
+
+
+/* ---------------------------------- Font Style Classses ---------------------------------- */
+.xsn { font-family : 'XfinityBrownWeb-Regular'; font-style: normal; font-weight : 400;}
+
+.xst { font-family : 'XfinityBrownWeb-Light'; font-style:normal; font-weight: 100;}
+
+.xsb { font-family : 'XfinityBrownWeb-Bold'; font-style:normal; font-weight: 700; }
+
+.xsm { font-family : 'XfinityBrownWeb-Regular'; font-style:normal; font-weight: 500; }
+
+.xsl { font-family : 'XFINITYStandardTT-Bold'; font-style:normal; font-weight: 300;}
+
+.xsc { font-family : 'XfinityBrownWeb-Regular'; font-style: normal; font-weight: 500;}
+
+.xsi { font-family : 'XfinityBrownWeb-Italics'; font-style: italic; font-weight: 500;}	
+
+
+

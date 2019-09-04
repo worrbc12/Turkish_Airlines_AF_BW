@@ -1,0 +1,552 @@
+Year,Month,Condition,Condition_Count
+2009,April,Cloudy,3
+2009,April,Partly cloudy,3
+2009,April,Sunny,23
+2009,April,Thundery outbreaks possible,1
+2009,August,Sunny,31
+2009,December,Cloudy,5
+2009,December,Overcast,5
+2009,December,Partly cloudy,13
+2009,December,Sunny,7
+2009,December,Thundery outbreaks possible,1
+2009,February,Cloudy,2
+2009,February,Mist,1
+2009,February,Overcast,11
+2009,February,Partly cloudy,9
+2009,February,Sunny,4
+2009,February,Thundery outbreaks possible,1
+2009,January,Cloudy,2
+2009,January,Mist,2
+2009,January,Overcast,8
+2009,January,Partly cloudy,11
+2009,January,Sunny,7
+2009,January,Thundery outbreaks possible,1
+2009,July,Sunny,31
+2009,June,Partly cloudy,3
+2009,June,Sunny,26
+2009,June,Thundery outbreaks possible,1
+2009,March,Cloudy,4
+2009,March,Fog,1
+2009,March,Light rain shower,1
+2009,March,Overcast,4
+2009,March,Partly cloudy,11
+2009,March,Sunny,8
+2009,March,Thundery outbreaks possible,2
+2009,May,Cloudy,1
+2009,May,Partly cloudy,3
+2009,May,Sunny,27
+2009,November,Light rain shower,1
+2009,November,Overcast,3
+2009,November,Partly cloudy,7
+2009,November,Sunny,18
+2009,November,Thundery outbreaks possible,1
+2009,October,Cloudy,1
+2009,October,Overcast,3
+2009,October,Partly cloudy,7
+2009,October,Sunny,19
+2009,October,Thundery outbreaks possible,1
+2009,September,Cloudy,1
+2009,September,Moderate or heavy rain shower,1
+2009,September,Overcast,1
+2009,September,Partly cloudy,7
+2009,September,Patchy rain possible,1
+2009,September,Sunny,19
+2010,April,Overcast,1
+2010,April,Partly cloudy,8
+2010,April,Sunny,19
+2010,April,Thundery outbreaks possible,2
+2010,August,Partly cloudy,2
+2010,August,Sunny,27
+2010,August,Thundery outbreaks possible,2
+2010,December,Cloudy,2
+2010,December,Overcast,8
+2010,December,Partly cloudy,9
+2010,December,Sunny,11
+2010,December,Thundery outbreaks possible,1
+2010,February,Cloudy,2
+2010,February,Light rain shower,1
+2010,February,Overcast,7
+2010,February,Partly cloudy,8
+2010,February,Sunny,8
+2010,February,Thundery outbreaks possible,2
+2010,January,Fog,1
+2010,January,Mist,1
+2010,January,Overcast,12
+2010,January,Partly cloudy,9
+2010,January,Sunny,6
+2010,January,Thundery outbreaks possible,2
+2010,July,Partly cloudy,4
+2010,July,Patchy rain possible,1
+2010,July,Sunny,26
+2010,June,Overcast,2
+2010,June,Partly cloudy,9
+2010,June,Sunny,17
+2010,June,Thundery outbreaks possible,2
+2010,March,Cloudy,3
+2010,March,Overcast,5
+2010,March,Partly cloudy,6
+2010,March,Sunny,17
+2010,May,Partly cloudy,6
+2010,May,Sunny,25
+2010,November,Cloudy,1
+2010,November,Light rain shower,1
+2010,November,Partly cloudy,4
+2010,November,Sunny,24
+2010,October,Cloudy,4
+2010,October,Moderate or heavy rain shower,1
+2010,October,Moderate rain,1
+2010,October,Overcast,4
+2010,October,Partly cloudy,7
+2010,October,Sunny,14
+2010,September,Cloudy,2
+2010,September,Overcast,1
+2010,September,Partly cloudy,6
+2010,September,Patchy light drizzle,1
+2010,September,Sunny,19
+2010,September,Thundery outbreaks possible,1
+2011,April,Cloudy,3
+2011,April,Overcast,4
+2011,April,Partly cloudy,10
+2011,April,Sunny,13
+2011,August,Cloudy,1
+2011,August,Overcast,1
+2011,August,Sunny,29
+2011,December,Cloudy,4
+2011,December,Light drizzle,1
+2011,December,Overcast,3
+2011,December,Partly cloudy,11
+2011,December,Sunny,12
+2011,February,Cloudy,7
+2011,February,Moderate or heavy snow showers,1
+2011,February,Overcast,4
+2011,February,Partly cloudy,4
+2011,February,Sunny,12
+2011,January,Cloudy,4
+2011,January,Light sleet,1
+2011,January,Overcast,8
+2011,January,Partly cloudy,3
+2011,January,Sunny,15
+2011,July,Partly cloudy,1
+2011,July,Sunny,30
+2011,June,Moderate or heavy rain shower,1
+2011,June,Partly cloudy,2
+2011,June,Sunny,25
+2011,June,Thundery outbreaks possible,1
+2011,June,Torrential rain shower,1
+2011,March,Cloudy,4
+2011,March,Overcast,6
+2011,March,Partly cloudy,9
+2011,March,Patchy rain possible,1
+2011,March,Sunny,10
+2011,March,Thundery outbreaks possible,1
+2011,May,Overcast,3
+2011,May,Partly cloudy,10
+2011,May,Sunny,18
+2011,November,Cloudy,3
+2011,November,Light rain shower,1
+2011,November,Overcast,2
+2011,November,Partly cloudy,11
+2011,November,Sunny,13
+2011,October,Cloudy,3
+2011,October,Overcast,3
+2011,October,Partly cloudy,10
+2011,October,Sunny,14
+2011,October,Thundery outbreaks possible,1
+2011,September,Overcast,1
+2011,September,Partly cloudy,2
+2011,September,Sunny,27
+2012,April,Overcast,2
+2012,April,Partly cloudy,7
+2012,April,Sunny,21
+2012,August,Cloudy,1
+2012,August,Sunny,29
+2012,August,Torrential rain shower,1
+2012,December,Cloudy,5
+2012,December,Overcast,11
+2012,December,Partly cloudy,6
+2012,December,Sunny,9
+2012,February,Cloudy,2
+2012,February,Overcast,8
+2012,February,Partly cloudy,8
+2012,February,Sunny,10
+2012,January,Blizzard,1
+2012,January,Cloudy,7
+2012,January,Overcast,7
+2012,January,Partly cloudy,8
+2012,January,Sunny,8
+2012,July,Sunny,31
+2012,June,Partly cloudy,2
+2012,June,Sunny,28
+2012,March,Cloudy,3
+2012,March,Overcast,3
+2012,March,Partly cloudy,7
+2012,March,Patchy rain possible,1
+2012,March,Sunny,17
+2012,May,Cloudy,1
+2012,May,Partly cloudy,10
+2012,May,Sunny,20
+2012,November,Cloudy,2
+2012,November,Light rain,1
+2012,November,Light rain shower,1
+2012,November,Overcast,2
+2012,November,Partly cloudy,12
+2012,November,Sunny,12
+2012,October,Cloudy,1
+2012,October,Overcast,1
+2012,October,Partly cloudy,6
+2012,October,Sunny,23
+2012,September,Cloudy,1
+2012,September,Partly cloudy,2
+2012,September,Sunny,26
+2012,September,Thundery outbreaks possible,1
+2013,April,Cloudy,1
+2013,April,Overcast,3
+2013,April,Partly cloudy,5
+2013,April,Sunny,21
+2013,August,Partly cloudy,1
+2013,August,Sunny,30
+2013,December,Cloudy,2
+2013,December,Light sleet showers,1
+2013,December,Overcast,5
+2013,December,Partly cloudy,7
+2013,December,Sunny,16
+2013,February,Cloudy,4
+2013,February,Overcast,4
+2013,February,Partly cloudy,8
+2013,February,Sunny,12
+2013,January,Blizzard,1
+2013,January,Cloudy,4
+2013,January,Overcast,4
+2013,January,Partly cloudy,10
+2013,January,Sunny,12
+2013,July,Partly cloudy,2
+2013,July,Sunny,29
+2013,June,Partly cloudy,3
+2013,June,Sunny,26
+2013,June,Thundery outbreaks possible,1
+2013,March,Cloudy,1
+2013,March,Overcast,5
+2013,March,Partly cloudy,7
+2013,March,Sunny,18
+2013,May,Cloudy,1
+2013,May,Overcast,1
+2013,May,Partly cloudy,2
+2013,May,Patchy rain possible,1
+2013,May,Sunny,26
+2013,November,Cloudy,5
+2013,November,Overcast,3
+2013,November,Partly cloudy,4
+2013,November,Sunny,18
+2013,October,Cloudy,1
+2013,October,Overcast,3
+2013,October,Partly cloudy,5
+2013,October,Sunny,22
+2013,September,Partly cloudy,3
+2013,September,Sunny,27
+2014,April,Cloudy,2
+2014,April,Overcast,1
+2014,April,Partly cloudy,10
+2014,April,Sunny,17
+2014,August,Partly cloudy,6
+2014,August,Sunny,24
+2014,August,Thundery outbreaks possible,1
+2014,December,Cloudy,3
+2014,December,Overcast,6
+2014,December,Partly cloudy,11
+2014,December,Sunny,10
+2014,December,Thundery outbreaks possible,1
+2014,February,Cloudy,2
+2014,February,Overcast,4
+2014,February,Partly cloudy,8
+2014,February,Sunny,14
+2014,January,Cloudy,3
+2014,January,Overcast,3
+2014,January,Partly cloudy,10
+2014,January,Sunny,15
+2014,July,Partly cloudy,1
+2014,July,Sunny,30
+2014,June,Moderate or heavy rain shower,1
+2014,June,Partly cloudy,5
+2014,June,Sunny,24
+2014,March,Overcast,4
+2014,March,Partly cloudy,8
+2014,March,Patchy rain possible,1
+2014,March,Sunny,18
+2014,May,Cloudy,3
+2014,May,Overcast,2
+2014,May,Partly cloudy,2
+2014,May,Sunny,24
+2014,November,Cloudy,4
+2014,November,Light rain shower,2
+2014,November,Overcast,8
+2014,November,Partly cloudy,6
+2014,November,Sunny,10
+2014,October,Cloudy,2
+2014,October,Light drizzle,1
+2014,October,Light rain shower,1
+2014,October,Overcast,6
+2014,October,Partly cloudy,11
+2014,October,Sunny,10
+2014,September,Cloudy,2
+2014,September,Moderate or heavy rain shower,1
+2014,September,Overcast,2
+2014,September,Partly cloudy,8
+2014,September,Sunny,17
+2015,April,Cloudy,2
+2015,April,Heavy rain,1
+2015,April,Light rain,1
+2015,April,Overcast,2
+2015,April,Partly cloudy,7
+2015,April,Sunny,17
+2015,August,Cloudy,1
+2015,August,Partly cloudy,2
+2015,August,Sunny,28
+2015,December,Cloudy,6
+2015,December,Overcast,9
+2015,December,Partly cloudy,2
+2015,December,Patchy rain possible,1
+2015,December,Sunny,13
+2015,February,Cloudy,2
+2015,February,Overcast,14
+2015,February,Partly cloudy,4
+2015,February,Sunny,8
+2015,January,Blizzard,1
+2015,January,Cloudy,4
+2015,January,Overcast,6
+2015,January,Partly cloudy,6
+2015,January,Sunny,14
+2015,July,Sunny,31
+2015,June,Cloudy,1
+2015,June,Partly cloudy,6
+2015,June,Patchy rain possible,1
+2015,June,Sunny,20
+2015,June,Thundery outbreaks possible,2
+2015,March,Cloudy,5
+2015,March,Overcast,9
+2015,March,Partly cloudy,7
+2015,March,Patchy rain possible,4
+2015,March,Sunny,6
+2015,May,Cloudy,1
+2015,May,Overcast,1
+2015,May,Partly cloudy,7
+2015,May,Sunny,22
+2015,November,Cloudy,4
+2015,November,Overcast,1
+2015,November,Partly cloudy,6
+2015,November,Sunny,19
+2015,October,Cloudy,9
+2015,October,Overcast,6
+2015,October,Partly cloudy,10
+2015,October,Patchy rain possible,1
+2015,October,Sunny,5
+2015,September,Cloudy,4
+2015,September,Light rain shower,1
+2015,September,Overcast,2
+2015,September,Partly cloudy,6
+2015,September,Patchy rain possible,3
+2015,September,Sunny,13
+2015,September,Thundery outbreaks possible,1
+2016,April,Cloudy,1
+2016,April,Overcast,1
+2016,April,Partly cloudy,6
+2016,April,Patchy rain possible,2
+2016,April,Sunny,20
+2016,August,Cloudy,2
+2016,August,Partly cloudy,3
+2016,August,Sunny,25
+2016,August,Thundery outbreaks possible,1
+2016,December,Cloudy,3
+2016,December,Overcast,13
+2016,December,Partly cloudy,3
+2016,December,Sunny,12
+2016,February,Cloudy,1
+2016,February,Overcast,6
+2016,February,Partly cloudy,6
+2016,February,Sunny,16
+2016,January,Blizzard,1
+2016,January,Cloudy,5
+2016,January,Mist,1
+2016,January,Overcast,6
+2016,January,Partly cloudy,7
+2016,January,Sunny,11
+2016,July,Patchy rain possible,2
+2016,July,Sunny,29
+2016,June,Cloudy,2
+2016,June,Moderate or heavy rain shower,1
+2016,June,Partly cloudy,4
+2016,June,Patchy rain possible,1
+2016,June,Sunny,21
+2016,June,Thundery outbreaks possible,1
+2016,March,Cloudy,4
+2016,March,Overcast,7
+2016,March,Partly cloudy,2
+2016,March,Sunny,18
+2016,May,Light rain shower,1
+2016,May,Moderate or heavy rain shower,1
+2016,May,Overcast,4
+2016,May,Partly cloudy,5
+2016,May,Patchy rain possible,2
+2016,May,Sunny,18
+2016,November,Cloudy,4
+2016,November,Heavy rain,1
+2016,November,Overcast,5
+2016,November,Partly cloudy,4
+2016,November,Sunny,16
+2016,October,Cloudy,3
+2016,October,Overcast,6
+2016,October,Partly cloudy,11
+2016,October,Sunny,11
+2016,September,Overcast,2
+2016,September,Partly cloudy,2
+2016,September,Sunny,26
+2017,April,Overcast,4
+2017,April,Partly cloudy,5
+2017,April,Sunny,21
+2017,August,Overcast,1
+2017,August,Partly cloudy,5
+2017,August,Sunny,25
+2017,December,Cloudy,2
+2017,December,Overcast,8
+2017,December,Partly cloudy,2
+2017,December,Sunny,18
+2017,December,Thundery outbreaks possible,1
+2017,February,Cloudy,6
+2017,February,Overcast,6
+2017,February,Partly cloudy,6
+2017,February,Sunny,10
+2017,January,Cloudy,4
+2017,January,Overcast,14
+2017,January,Partly cloudy,5
+2017,January,Sunny,8
+2017,July,Cloudy,1
+2017,July,Light rain shower,1
+2017,July,Overcast,1
+2017,July,Partly cloudy,1
+2017,July,Sunny,27
+2017,June,Cloudy,1
+2017,June,Overcast,2
+2017,June,Partly cloudy,2
+2017,June,Sunny,25
+2017,March,Cloudy,5
+2017,March,Overcast,6
+2017,March,Partly cloudy,4
+2017,March,Sunny,16
+2017,May,Overcast,2
+2017,May,Partly cloudy,7
+2017,May,Sunny,22
+2017,November,Cloudy,5
+2017,November,Overcast,2
+2017,November,Partly cloudy,8
+2017,November,Sunny,15
+2017,October,Overcast,3
+2017,October,Partly cloudy,4
+2017,October,Sunny,23
+2017,October,Thundery outbreaks possible,1
+2017,September,Cloudy,1
+2017,September,Overcast,1
+2017,September,Partly cloudy,2
+2017,September,Sunny,26
+2018,April,Overcast,1
+2018,April,Partly cloudy,1
+2018,April,Sunny,28
+2018,August,Sunny,31
+2018,December,Cloudy,6
+2018,December,Overcast,8
+2018,December,Partly cloudy,11
+2018,December,Sunny,6
+2018,February,Overcast,16
+2018,February,Partly cloudy,2
+2018,February,Sunny,9
+2018,February,Thundery outbreaks possible,1
+2018,January,Cloudy,2
+2018,January,Overcast,11
+2018,January,Partly cloudy,7
+2018,January,Sunny,11
+2018,July,Partly cloudy,2
+2018,July,Sunny,28
+2018,July,Thundery outbreaks possible,1
+2018,June,Partly cloudy,4
+2018,June,Sunny,24
+2018,June,Thundery outbreaks possible,2
+2018,March,Cloudy,2
+2018,March,Overcast,5
+2018,March,Partly cloudy,5
+2018,March,Sunny,18
+2018,March,Thundery outbreaks possible,1
+2018,May,Cloudy,2
+2018,May,Overcast,5
+2018,May,Partly cloudy,4
+2018,May,Sunny,19
+2018,May,Thundery outbreaks possible,1
+2018,November,Cloudy,7
+2018,November,Light rain shower,1
+2018,November,Overcast,9
+2018,November,Partly cloudy,6
+2018,November,Sunny,7
+2018,October,Cloudy,5
+2018,October,Overcast,2
+2018,October,Partly cloudy,9
+2018,October,Sunny,13
+2018,October,Thundery outbreaks possible,2
+2018,September,Cloudy,2
+2018,September,Overcast,4
+2018,September,Partly cloudy,3
+2018,September,Patchy rain possible,1
+2018,September,Sunny,19
+2018,September,Thundery outbreaks possible,1
+2019,April,Cloudy,2
+2019,April,Light rain,1
+2019,April,Light rain shower,3
+2019,April,Moderate or heavy rain shower,1
+2019,April,Moderate or heavy rain with thunder,1
+2019,April,Overcast,3
+2019,April,Partly cloudy,12
+2019,April,Patchy rain possible,7
+2019,February,Cloudy,1
+2019,February,Light rain,2
+2019,February,Light rain shower,3
+2019,February,Light sleet,2
+2019,February,Moderate rain,1
+2019,February,Moderate rain at times,1
+2019,February,Overcast,1
+2019,February,Partly cloudy,12
+2019,February,Patchy light drizzle,1
+2019,February,Patchy rain possible,2
+2019,February,Sunny,2
+2019,January,Cloudy,7
+2019,January,Heavy rain,1
+2019,January,Light drizzle,3
+2019,January,Light rain,3
+2019,January,Light sleet,1
+2019,January,Moderate or heavy rain with thunder,2
+2019,January,Moderate or heavy sleet,1
+2019,January,Moderate or heavy snow showers,1
+2019,January,Moderate rain,2
+2019,January,Moderate snow,1
+2019,January,Overcast,1
+2019,January,Partly cloudy,5
+2019,January,Patchy rain possible,2
+2019,January,Thundery outbreaks possible,1
+2019,July,Heavy rain at times,1
+2019,July,Overcast,1
+2019,July,Partly cloudy,13
+2019,July,Patchy rain possible,3
+2019,July,Sunny,4
+2019,June,Cloudy,1
+2019,June,Partly cloudy,25
+2019,June,Patchy rain possible,3
+2019,June,Sunny,1
+2019,March,Cloudy,4
+2019,March,Light drizzle,1
+2019,March,Light rain,3
+2019,March,Moderate rain,1
+2019,March,Overcast,2
+2019,March,Partly cloudy,17
+2019,March,Patchy rain possible,2
+2019,March,Sunny,1
+2019,May,Cloudy,2
+2019,May,Light rain shower,4
+2019,May,Partly cloudy,14
+2019,May,Patchy light rain with thunder,3
+2019,May,Patchy rain possible,6
+2019,May,Sunny,2

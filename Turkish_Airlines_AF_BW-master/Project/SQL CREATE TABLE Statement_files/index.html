@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://cdn.flashtalking.com/93411/2715195/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style></style><meta name="ad.size" content="width=160,height=600">
+<script type="text/javascript"> 
+	var clickTag = "https://xfinity.com/";
+</script>
+	
+<script src="./TweenMax.min.js.download"></script>
+<script src="./jquery.min.js.download"></script>
+
+<link rel="stylesheet" type="text/css" href="./style.css">
+	
+<style rel="stylesheet" type="text/css">
+
+/* Globals */	
+	
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    image-rendering: -webkit-optimize-contrast;
+}
+body, body * {
+	vertical-align: baseline;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+#container {
+	position: absolute;
+	width: 160px;
+	height: 600px;
+	border: 1px solid #aaaaaa;
+	overflow: hidden;
+	opacity: 1;
+	box-sizing: border-box;
+}
+
+div {
+	position: absolute;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+img {
+	position: absolute;
+}
+
+
+/* Copy */
+	
+.copy{
+	font-size: 24px;
+	opacity: 1;
+	position: relative;
+	display: table-cell;
+    vertical-align: top;
+	text-align: left;
+	width: 100%;
+	line-height: 24px;
+    letter-spacing: -1.2px;
+	color: #fff;
+}
+
+.copyHolder{
+	display: table;
+	height: 100%;
+	width: 150px;
+	top: 32px;
+	left: 12px;
+	opacity: 1;
+}
+	#frame1CopyHolder{
+		width: 140px;
+	}
+	#frame2CopyHolder{
+		width: 100px;
+	}
+
+#frame2Copy{
+	top: 51px;
+	
+}
+
+#frame5CopyHolder, #frame6CopyHolder{
+	width: 160px;
+}
+#frame5Copy, #frame6Copy{
+	color: #000;
+	top: 12px;
+	transform-origin: center center;
+}
+	#frame3Copy{
+		position: relative;
+	}
+	#frame3Copy > div{
+		display: inline-block;
+	}
+#frame3Copy > div, #frame4Copy > div{
+	opacity: 1;
+	position: relative;
+}
+/* Imagery */
+
+#bg {
+	background: #ffffff;
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+}	
+	
+#end{
+	background: #ffffff;
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+}
+#angle {
+    background: #ebeef0;
+    width: 700px;
+    height: 467px;
+    opacity: 1;
+	top: -95px;
+    left: -280px;
+    transform: rotate(-42deg);
+}
+.photo{
+	transform-origin: center center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#phone{
+	position: relative;
+	opacity: 1;
+	left: 20px;
+	top: 180px;
+}
+#phone img{
+	position: absolute;
+	opacity: 1;
+	left: 0px;
+	top: 0px;
+}
+#logo, #logo2 {
+	background: url(logo.svg) no-repeat;
+	width: 70px;
+	height: 24px;
+	left: 45px;
+	bottom: 75px;
+	opacity: 1;
+}
+#logo2{
+	filter: brightness(0);
+}
+
+/* CTA */
+	
+#cta {
+	background: #2b9cd8;
+	color: #ffffff;
+	width: 94px;
+	height: 27px; 
+    border-radius: 15px;
+    right: 33px;
+    bottom: 25px;
+    opacity: 1;
+	
+}
+#ctaCopy{
+	color: #ffffff;
+	font-size: 11px;
+	text-align: center;
+	line-height: 26px;
+}
+#cta:after {
+    border-radius: 15px;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.6);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+#cta:hover:after {
+    width: 120%;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+#clickarea {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+</style>
+</head>
+<body class="animate">
+<div id="container" style="cursor: pointer;">
+	<div id="bg"></div>
+	<ft-dynamic name="photo1" id="photo1" class="photo"><img src="./FiosCCast_Photo1_160x600.jpg"></ft-dynamic> <!-- Variable IMG -->
+	<ft-dynamic name="photo2" id="photo2" class="photo" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><img src="./FiosCCast_Photo2_160x600.jpg"></ft-dynamic> <!-- Variable IMG -->
+	<ft-dynamic name="photo3" id="photo3" class="photo" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><img src="./FiosCCast_Photo3_160x600.jpg"></ft-dynamic> <!-- Variable IMG -->
+	<div id="logo"></div>
+	<div id="end" style="opacity: 1;"><div id="angle" style="opacity: 1; transform: matrix(0.74314, -0.66913, 0.66913, 0.74314, 0, 0);"></div><div id="logo2"></div></div>
+	
+	<ft-dynamic name="phone" id="phone" style="transform: matrix(1, 0, 0, 1, 0, 0);"><img src="./FiosCCast_Phone_160x600.png"></ft-dynamic> <!-- Variable IMG -->
+	
+	<div class="copyHolder" id="frame1CopyHolder" style="opacity: 0;">
+			<ft-dynamic name="frame1Copy" id="frame1Copy" class="xsb copy">Hello, fastest Internet.</ft-dynamic>  <!-- Variable -->
+	</div>
+	<div class="copyHolder" id="frame2CopyHolder" style="opacity: 0;">
+			<ft-dynamic name="frame2Copy" id="frame2Copy" class="xsb copy">Goodbye, Fios.</ft-dynamic>  <!-- Variable -->
+	</div>
+	
+	<div class="copyHolder" id="frame3CopyHolder" style="opacity: 0;">
+			<ft-dynamic name="frame3Copy" id="frame3Copy" class="xsb copy"><div id="step3a" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Stream,</div> <div id="step3b" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">game,</div> <div id="step3c" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">and surf</div> <div id="step3d" style="opacity: 1;">without</div><div id="step3e" style="opacity: 1;">missing a beat.</div></ft-dynamic>  <!-- Variable -->
+	</div>
+	
+	<div class="copyHolder" id="frame4CopyHolder" style="opacity: 0;">
+			<ft-dynamic name="frame4Copy" id="frame4Copy" class="xsb copy"><div id="step4a" style="opacity: 1;">And get ultimate</div><div id="step4b" style="opacity: 1;">WiFi control with</div><div id="step4c" style="opacity: 1;">Xfinity xFi.</div></ft-dynamic>  <!-- Variable -->
+	</div>
+	<div class="copyHolder" id="frame5CopyHolder" style="opacity: 1; transform: matrix(0, 0, 0, 1, 0, 0);">
+			<ft-dynamic name="frame5Copy" id="frame5Copy" class="xsb copy">Don't fall<br>for Fios.</ft-dynamic>  <!-- Variable -->
+	</div>
+	<div class="copyHolder" id="frame6CopyHolder" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+			<ft-dynamic name="frame6Copy" id="frame6Copy" class="xsb copy">Switch<br>to Xfinity<br>today.</ft-dynamic>  <!-- Variable -->
+	</div>
+
+	<div id="cta" style="opacity: 1;">
+		<ft-dynamic name="ctaCopy" id="ctaCopy" class="xsl">Learn More</ft-dynamic>  <!-- Variable -->	
+	</div>
+
+</div>
+
+<script>
+	function startAd() {
+		
+		// Typewriter
+		
+		var speed = 50;
+		
+		var i = 0;
+		var txt = document.getElementById("frame1Copy").innerHTML;
+		document.getElementById("frame1Copy").innerHTML ="";
+
+		function typeWriter() {
+		  if (i < txt.length) {
+			document.getElementById("frame1Copy").innerHTML += txt.charAt(i);
+			i++;
+			setTimeout(typeWriter, speed);
+		  }
+		}
+		typeWriter();
+		
+		var k = 0;
+		var txt2 = document.getElementById("frame2Copy").innerHTML;
+		document.getElementById("frame2Copy").innerHTML ="";
+		
+		function typeWriter2() {
+		  if (k < txt2.length) {
+			document.getElementById("frame2Copy").innerHTML += txt2.charAt(k);
+			k++;
+			setTimeout(typeWriter2, speed);
+		  }
+		}
+		
+		// Animation
+		
+		TweenMax.delayedCall(3,typeWriter2);
+		
+		TweenMax.to(frame1CopyHolder, .75, {alpha:0, delay:4.5, ease:Power2.easeIn});
+		TweenMax.to(frame2CopyHolder, .75, {alpha:0, delay:4.5, ease:Power2.easeIn});
+		TweenMax.from(photo2, .75, {scale:1.1, alpha:0,delay:5, ease:Power2.easeOut});
+		TweenMax.from(frame3CopyHolder, .75, {alpha:0,delay:5, ease:Power2.easeOut});
+		TweenMax.from(step3a, .75, {alpha:0, delay:5, ease:Power2.easeOut});
+		TweenMax.from(step3b, .75, {alpha:0, delay:5, ease:Power2.easeOut});
+		TweenMax.from(step3c, .75, {alpha:0, delay:5, ease:Power2.easeOut});
+		TweenMax.to(step3a, .25, {scale:1.2, delay:6, ease:Power2.easeInOut, repeat:1, yoyo:true});
+		TweenMax.to(step3b, .25, {scale:1.2, delay:6.1, ease:Power2.easeInOut, repeat:1, yoyo:true});
+		TweenMax.to(step3c, .25, {scale:1.2, delay:6.4, ease:Power2.easeInOut, repeat:1, yoyo:true});
+		TweenMax.from(step3d, .5, {alpha:0, delay:6.75, ease:Power2.easeOut});
+		TweenMax.from(step3e, .5, {alpha:0, delay:6.75, ease:Power2.easeOut});
+		
+		TweenMax.to(frame3CopyHolder, .75, {alpha:0, delay:8.25, ease:Power2.easeIn});
+		TweenMax.from(photo3, .75, {scale:1.1,  alpha:0,delay:8.75, ease:Power2.easeOut});
+		TweenMax.from(step4a, .75, {alpha:0,delay:8.85, ease:Power2.easeOut});
+		TweenMax.from(step4b, .75, {alpha:0,delay:9.25, ease:Power2.easeOut});
+		TweenMax.from(step4c, .75, {alpha:0,delay:9.65, ease:Power2.easeOut});
+		
+		TweenMax.to(frame4CopyHolder, .75, {alpha:0, delay:11.25, ease:Power2.easeIn});
+		TweenMax.from(end, .75, {alpha:0, delay:11.75, ease:Power2.easeOut});
+		TweenMax.from(angle, .75, {x:150, alpha:0, delay:11.75, ease:Power2.easeOut});
+		TweenMax.from(phone, .75, {y:550, delay:11.75, ease:Power2.easeOut});
+		TweenMax.from(cta, .75, {alpha:0, delay:12.25, ease:Power2.easeOut});
+		TweenMax.from(frame5CopyHolder, .75, {x:-10, alpha:0, delay:11.75, ease:Power2.easeOut});
+		
+		TweenMax.to(frame5CopyHolder, .2, {scaleX:0, delay:13.25, ease:Power2.easeIn});
+		TweenMax.from(frame6CopyHolder, .25, {scaleX:0, alpha:0, delay:13.5, ease:Power2.easeOut});
+
+	};
+</script>
+<script src="./html5API.js.download"></script>
+
+<script>
+        if(myFT.$('#container').length > 0){ var container = myFT.$('#container') } else if(myFT.$('.banner-wrapper').length > 0){ var container =  myFT.$('.banner-wrapper'); } else if(myFT.$('#animation_container').length > 0){ var container =  myFT.$('#animation_container'); } else if(myFT.$('#banner').length > 0){ var container =  myFT.$('#banner');} else if(myFT.$('#content').length > 0){ var container =  myFT.$('#content');} else if(myFT.$('#bg-exit').length > 0){ var container =  myFT.$('#bg-exit');};
+   myFT.applyClickTag(container,1);
+</script>
+<script>
+	myFT.on("instantads", function(){
+			if (typeof startAd !== "undefined") {startAd();}
+
+	});
+</script>
+
+</body></html>
