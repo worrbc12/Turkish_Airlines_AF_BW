@@ -5,15 +5,15 @@ Month PK VARCHAR
 
 Weather_Table
 -
-Year PK INT FK - Time_Period.Year
-Month PK VARCHAR FK >- Time_Period.Month
-Weather_Type VARCHAR
-Mnthly_Wthr_Type_Cnt INT
+Year INT FK - Time_Period.Year
+Month VARCHAR FK >- Time_Period.Month
+Condition VARCHAR
+Condition_Count INT
 
 TK_Stock_Price
 -
-Year PK INT FK - Time_Period.Year
-Month PK VARCHAR FK >- Time_Period.Month
+Year INT FK - Time_Period.Year
+Month VARCHAR FK >- Time_Period.Month
 Avg_Close  INT
 Avg_High   INT
 Avg_Low    INT
@@ -21,8 +21,8 @@ Avg_Volume INT
 
 TK_Traffic_Update
 -
-Year PK INT FK - Time_Period.Year
-Month PK VARCHAR FK >- Time_Period.Month
+Year INT FK - Time_Period.Year
+Month VARCHAR FK >- Time_Period.Month
 No_Landing INT
 Available_Seats_Km INT
 Revenue_Passenger_Km INT
@@ -30,4 +30,4 @@ Passenger_Load_Factor INT
 Passengers_Carried INT
 Cargo_and_Mail INT
 Km_Flown  INT
-Int-to-Int_Trns_Pass_Carried  INT
+Int_Trns_Pass_Carried  INT

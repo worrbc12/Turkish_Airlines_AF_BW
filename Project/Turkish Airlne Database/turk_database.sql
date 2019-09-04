@@ -1,7 +1,7 @@
---DROP TABLE Time_Period;
---DROP TABLE Weather_Table;
---DROP TABLE TK_Stock_Price;
---DROP TABLE TK_Traffic_Update;
+DROP TABLE "Time_Period";
+DROP TABLE "Weather_Table";
+DROP TABLE "TK_Stock_Price";
+DROP TABLE "TK_Traffic_Update";
 
 CREATE TABLE "Time_Period" (
     "Year" INT   NOT NULL,
@@ -11,31 +11,33 @@ CREATE TABLE "Time_Period" (
      )
 );
 
+SELECT * FROM "Time_Period";
+
+
 CREATE TABLE "Weather_Table" (
     "Year" INT   NOT NULL,
     "Month" VARCHAR   NOT NULL,
-    "Weather_Type" VARCHAR   NOT NULL,
-    "Mnthly_Wthr_Type_Cnt" INT   NOT NULL,
-    CONSTRAINT "pk_Weather_Table" PRIMARY KEY (
-        "Year","Month"
-     )
+    "Condition" VARCHAR   NOT NULL,
+    "Condition_Count" INT   NOT NULL
 );
+
+SELECT * FROM "Weather_Table";
 
 CREATE TABLE "TK_Stock_Price" (
     "Year" INT   NOT NULL,
     "Month" VARCHAR   NOT NULL,
-    "Avg_Close" INT   NOT NULL,
-    "Avg_High" INT   NOT NULL,
-    "Avg_Low" INT   NOT NULL,
-    "Avg_Volume" INT   NOT NULL,
-    CONSTRAINT "pk_TK_Stock_Price" PRIMARY KEY (
-        "Year","Month"
-     )
+    "Avg Close" INT   NOT NULL,
+    "Avg High" INT   NOT NULL,
+    "Avg Low" INT   NOT NULL,
+    "Avg Volume" INT   NOT NULL
 );
 
+SELECT * FROM "TK_Stock_Price";
+
+
 CREATE TABLE "TK_Traffic_Update" (
-    "Year" INT   NOT NULL,
     "Month" VARCHAR   NOT NULL,
+	"Year" INT   NOT NULL,
     "No_Landing" INT   NOT NULL,
     "Available_Seats_Km" INT   NOT NULL,
     "Revenue_Passenger_Km" INT   NOT NULL,
@@ -43,11 +45,11 @@ CREATE TABLE "TK_Traffic_Update" (
     "Passengers_Carried" INT   NOT NULL,
     "Cargo_and_Mail" INT   NOT NULL,
     "Km_Flown" INT   NOT NULL,
-    "Int-to-Int_Trns_Pass_Carried" INT   NOT NULL,
-    CONSTRAINT "pk_TK_Traffic_Update" PRIMARY KEY (
-        "Year","Month"
-     )
+    "Int_Trns_Pass_Carried" INT   NOT NULL
 );
+
+SELECT * FROM "TK_Traffic_Update";
+
 
 ALTER TABLE "Weather_Table" ADD CONSTRAINT "fk_Weather_Table_Year_Month" FOREIGN KEY("Year", "Month")
 REFERENCES "Time_Period" ("Year", "Month");
