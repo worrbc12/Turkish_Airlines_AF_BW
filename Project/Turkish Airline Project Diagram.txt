@@ -14,20 +14,20 @@ TK_Stock_Price
 -
 Year INT FK - Time_Period.Year
 Month VARCHAR FK >- Time_Period.Month
-Avg_Close  INT
-Avg_High   INT
-Avg_Low    INT
-Avg_Volume INT
+Avg_Close  Decimal
+Avg_High   Decimal
+Avg_Low    Decimal
+Avg_Volume Decimal
 
 TK_Traffic_Update
 -
 Year INT FK - Time_Period.Year
 Month VARCHAR FK >- Time_Period.Month
-No_Landing INT
-Available_Seats_Km INT
-Revenue_Passenger_Km INT
-Passenger_Load_Factor INT
-Passengers_Carried INT
-Cargo_and_Mail INT
-Km_Flown  INT
-Int_Trns_Pass_Carried  INT
+No_Landing Decimal
+Available_Seats_Km Decimal
+Revenue_Passenger_Km Decimal
+Passenger_Load_Factor Decimal
+Passengers_Carried Decimal
+Cargo_and_Mail Decimal
+Km_Flown  Decimal
+Int_Trns_Pass_Carried  Decimal
